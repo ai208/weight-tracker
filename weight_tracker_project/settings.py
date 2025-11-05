@@ -133,3 +133,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 付け足した　2025年11月5日 accounts
 AUTH_USER_MODEL = 'accounts.User'
+#付け足した　2025年11月5日　12:59
+# ログイン成功後
+LOGIN_REDIRECT_URL = '/'
+
+#ログアウト成功後
+LOGOUT_URL = '/'
+
+#ログインが必要なページに来た時のリダイレクト
+LOGIN_URL = '/login'

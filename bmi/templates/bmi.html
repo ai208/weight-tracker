@@ -9,6 +9,14 @@
 
 </head>
 <body>
+    <header>
+        {% if user.is_authenticated %}
+        <a href="{% url 'mypage'}">マイページ</a>
+        {% else%}
+        <a href="{%url 'login'%}"></a>
+    </header>
+
+
     <p>体重の計算app</p>
     <label for="height">身長 (cm)</label>
     <input type="number" name="height" id="height">

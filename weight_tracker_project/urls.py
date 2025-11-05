@@ -19,8 +19,8 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/',include('django.contrib.auth.urls')),
     path('', include('bmi.urls')),         # ホームページ（BMI）
-    path('login/', include('accounts.urls')),  # ログイン
     path('mypage/', include('tracker.urls')),  # マイページ
 
 ]
