@@ -1,5 +1,5 @@
 # weight-tracker
-体重記録とBMI計算のDjangoアプリ
+体重記録とBMI計算のDjangoアプリのデモversion
 
 
 ### 1. GitHub からプロジェクトを取得
